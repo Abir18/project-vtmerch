@@ -6,8 +6,11 @@ const products = [product1, product2, product2, product3];
 
 const Products = () => {
   return (
-    <div className="bg-[#F6F5F5] min-h-screen flex flex-col justify-center ">
-      <h1 className="uppercase sm:text-[70px] text-[40px] font-custom font-semibold sm:ml-40 ml-4 mt-4 mb-8">
+    <div
+      className="bg-[#F6F5F5] min-h-screen flex flex-col justify-center"
+      data-aos="fade-down"
+    >
+      <h1 className="uppercase sm:text-[70px] text-[40px] font-custom font-semibold xl:ml-32 ml-4 mt-4 mb-8">
         Buy 1 get 1 Free <br />
         on{" "}
         <span
@@ -20,15 +23,13 @@ const Products = () => {
           best selling products
         </span>
       </h1>
-      <div className="flex max-xl:flex-col gap-4 justify-center items-center">
+      <div className="flex max-xl:flex-col gap-4 justify-center items-center md:mx-32">
         {products.map((product) => (
           <div className="bg-white flex flex-col p-4 rounded-xl" key={product}>
             <img
               src={product}
               alt="card"
-              height={400}
-              width={355}
-              className="rounded-xl object-cover h-96 "
+              className="rounded-xl  w-full max-sm:w-[w-50%]"
             />
 
             <div>

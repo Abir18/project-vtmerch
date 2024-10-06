@@ -19,7 +19,7 @@ const Hero = () => {
           <img src={menu} alt="menu" height={40} width={40} />
         </div>
       </div>
-      <div className="sm:ml-48 ml-4 sm:mt-32 mt-10 pb-12">
+      <div className="sm:ml-48 ml-4 sm:mt-32 mt-10 pb-12" data-aos="fade-down">
         <img src={tagline} alt="" />
         <div className="xl:ml-12 xl:-mt-16">
           <Card />

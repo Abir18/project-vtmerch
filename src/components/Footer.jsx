@@ -15,7 +15,7 @@ import {ReactComponent as Logo} from "../assets/Logo/valuetainment.svg";
 const Footer = () => {
   return (
     <div className="bg-black  text-white">
-      <div className="flex pt-8">
+      <div className="flex pt-16">
         <div className="mt-8 xl:ml-24 cursor-pointer">
           <Logo fill="red" height="90px" width="115px" />
         </div>
