@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Monserrat";
+  src: url("/src/assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "MonserratItalic";
+  src: url("/src/assets/Font/Montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 2px black;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
+}
